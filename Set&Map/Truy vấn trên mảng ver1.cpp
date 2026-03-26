@@ -3,7 +3,7 @@ using namespace std;
 
     int main(){
         int n; cin>>n;
-        multiset<int> se; // lưa được các phần tử giống nhau
+        multiset<int> se; // lưu được các phần tử giống nhau
 
         for(int i = 0; i < n; i++){
             int x;
