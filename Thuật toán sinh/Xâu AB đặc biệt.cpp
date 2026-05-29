@@ -56,8 +56,8 @@ using namespace std;
         while(ok){
             if(check()){
                 for(int i = 1; i <= n; i++){
-                    if(a[i]) cout << "B";
-                    else cout << "A";
+                    if(a[i]) cout << "B ";
+                    else cout << "A ";
                 }
                 cout << endl;
             }
